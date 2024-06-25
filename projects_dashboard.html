@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #2b2b2b;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 3px 20px; /* Reduced padding */
+            color: white;
+        }
+        .nav {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 3px 10px; /* Reduced link padding */
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        .nav a:hover {
+            background-color: white;
+            color: #2b2b2b;
+        }
+        iframe {
+            border: 0;
+            width: 100%;
+            height: calc(100vh - 45px); /* Adjust to occupy full screen minus header height */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="index.html">Home</a>
+        </div>
+    </header>
+    
+    <iframe title="Projects Dashboard" src="https://app.powerbi.com/reportEmbed?reportId=1aa7132f-daee-434b-9a13-47e3909768cd&autoAuth=true&ctid=0fd43626-1d3a-46a2-a9bd-ec944cbb4e57&filterPaneEnabled=false&navContentPaneEnabled=false&qnaEmbeddable=true" allowFullScreen="true"></iframe>
+
+</body>
+</html>

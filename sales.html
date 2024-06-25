@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #2b2b2b;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 3px 20px; /* Reduzi o padding para metade do tamanho original */
+            color: white;
+        }
+        
+
+        .nav {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 3px 10px; /* Reduzi o padding do link para manter a proporção */
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        .nav a:hover {
+            background-color: white;
+            color: #2b2b2b;
+        }
+        iframe {
+            border: 0;
+            width: 100%;
+            height: calc(100vh - 45px); /* Ajuste para ocupar a tela inteira menos a altura do cabeçalho */
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="nav">
+            <a href="index.html">Home</a>
+        </div>
+    </header>
+    
+    <iframe title="Sales" src="https://app.powerbi.com/reportEmbed?reportId=31aa38c9-04c8-4884-8279-19f3257b014b&autoAuth=true&ctid=0fd43626-1d3a-46a2-a9bd-ec944cbb4e57&filterPaneEnabled=false&navContentPaneEnabled=false" allowFullScreen="true"></iframe>
+
+</body>
+</html>
